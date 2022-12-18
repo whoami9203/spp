@@ -19,7 +19,7 @@ void err_sys(const char* x){
 	exit(1);
 }
 
-int int main(int argc, char const *argv[])
+int main(int argc, char const *argv[])
 {
 	int id;
 	char *ptr;
