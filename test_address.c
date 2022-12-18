@@ -39,6 +39,12 @@ int main(int argc, char const *argv[])
 		err_sys("mmap error");
 	printf("mmap from %p to %p\n", (void*)ptr, (void*)ptr+ARRAY_SIZE);
 
+	sleep(20);
+
+	if((ptr = mmap(0, ARRAY_SIZE, PROT_READ | PROT_WRITE, MAP_ANONYMOUS | MAP_SHARED, -1, 0)) == MAP_FAILED)
+		err_sys("mmap error");
+	printf("mmap from %p to %p\n", (void*)ptr, (void*)ptr+ARRAY_SIZE);
+
 	while(1);
 
 	exit(0);
