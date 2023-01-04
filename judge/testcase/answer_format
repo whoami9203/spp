@@ -1,0 +1,58 @@
+There are 3 items in the answer:
+[timeout] [operation] [argument]
+
+timeout is a floating point number
+there are several possibilities for the operation:
+- O: open a pipe
+- R: read from stdio
+- W: write to a pipe
+- D: send a SIGTSTP
+- F: make sure a file is deleted
+
+
+- O argument: [filename to open]
+- R argument: [content to expect]
+- W argument: [file ID] [content to write]
+- D has no argument
+- F argument: [filename to check]
+
+The content we feed into R is space-separated, and it supports some special commands:
+- *: we don't care what the content is
+- ?=: the content is related to the last one using these commands
+    - ?: it's different from the last one
+    - =: it's the same as the last one
+- /: the content should be different from any past contents using the '/' symbol
+
+For example, say the answer is:
+0 R * 1
+0 R ? 2
+0 R ? 3
+0 R ? 4
+0 R / 5
+0 R / 6
+0 R / 7
+0 R = 8
+0 R * 9
+0 R ? 10
+
+This is a correct output:
+blah 1
+abc 2
+def 3
+abc 4
+abc 5
+def 6
+ghi 7
+abc 8
+abcd 9
+def 10
+
+Here are some incorrect outputs:
+- Change 'blah 1' to 'blah 2'. It receives WA because '1' is not equal to '2'.
+- Change 'def 3' to 'abc 3'. It receives WA because the 'abc' part is the same as the last line.
+- Change 'ghi 7' to 'abc 7'. It receives WA because the 'abc' part has occured in 'abc 5'.
+- Change 'abc 8' to 'def 8'. It receives WA because the first part has to be the same as 'abc 4'
+- Change 'def 10' to 'abc 10'. It receives WA because 'abc' is the same as the 'abc 8'.
+
+the file ID in w is the order of the file being created
+for example, if we open 'a' first then 'b', the file ID of a is 0, and the file ID of b is 1

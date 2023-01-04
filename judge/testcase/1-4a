@@ -1,0 +1,133 @@
+1.2 R 1 1
+1.2 R 1 2
+1.2 R 1 3
+1.2 R 1 4
+1.2 R caught SIGALRM
+0.2 R 2 1
+1.2 R 2 2
+1.2 R 2 3
+1.2 R 2 4
+1.2 R caught SIGALRM
+0.2 R 9 1
+1.2 R 9 2
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 28 1
+1.2 R 28 2
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 65 1
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 126 1
+1.2 R caught SIGALRM
+0.2 R 217 1
+1.2 R 217 2
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 344 1
+1.2 R 344 2
+1.2 R caught SIGALRM
+0.2 R 513 1
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 730 1
+1.2 R 730 2
+1.2 R 730 3
+1.2 R caught SIGALRM
+0.2 R 1001 1
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 1332 1
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 1729 1
+1.2 R 1729 2
+1.2 R caught SIGALRM
+0.2 R 2198 1
+1.2 R 2198 2
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 2745 1
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 3376 1
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 1 5
+1.2 R 3376 2
+1.2 R caught SIGALRM
+0.2 R 2 5
+1.2 R 2745 2
+1.2 R 2745 3
+1.2 R 2745 4
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 9 3
+1.2 R caught SIGALRM
+0.2 R 28 3
+1.2 R 28 4
+1.2 R 28 5
+0.5 D
+0.7 R 2198 3
+1.2 R caught SIGTSTP
+0.2 R 65 2
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 126 2
+1.2 R caught SIGALRM
+0.2 R 217 3
+1.2 R 217 4
+1.2 R 217 5
+1.2 R 1729 3
+1.2 R caught SIGALRM
+0.2 R 344 3
+1.2 R 344 4
+1.2 R 344 5
+0.5 D
+0.7 R 1332 2
+1.2 R caught SIGTSTP
+0.2 R 513 2
+1.2 R caught SIGALRM
+0.2 R 730 4
+1.2 R 730 5
+1.2 R 1001 2
+1.2 R 1001 3
+1.2 R caught SIGALRM
+0.2 R 3376 3
+1.2 R 3376 4
+1.2 R 3376 5
+1.2 R 1001 4
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 2745 5
+1.2 R 513 3
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 9 4
+1.2 R caught SIGALRM
+0.2 R 2198 4
+1.2 R 2198 5
+1.2 R 1332 3
+1.2 R 1332 4
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 65 3
+1.2 R caught SIGALRM
+0.2 R 126 3
+0.5 D
+0.7 R caught SIGTSTP
+0.2 R 1729 4
+1.2 R 1729 5
+0.5 D
+0.7 R 1001 5
+1.2 R 126 4
+1.2 R caught SIGTSTP
+0.2 R 513 4
+1.2 R caught SIGALRM
+0.2 R 9 5
+1.2 R 65 4
+1.2 R 65 5
+1.2 R 1332 5
+1.2 R 126 5
+1.2 R 513 5
